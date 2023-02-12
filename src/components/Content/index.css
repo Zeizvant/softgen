@@ -1,0 +1,193 @@
+.main-content-body{
+    width: 100%;
+    height: 1360px;
+    background-color: #f2f2f2;
+    background-image: url('../../images/body-background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+.main-content-container{
+    max-width: 1360px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.insurance-content{
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    z-index: 1;
+    margin-top: -30px;
+    position: relative;
+}
+.insurance-box{
+    width: 260px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    box-shadow: 0px 10px 40px #006A9F1A;
+    background-color: #FFF;
+    border-radius: 12px;
+    font-size: 18px;
+    color: #707070;
+    cursor: pointer;
+    transition: 0.6s;
+    margin-bottom: 40px;
+}
+.insurance-box:hover{
+    background-color: #006A9F;
+    color: #FFF;
+    width: 270px;
+    height: 220px;
+    margin-top: -20px;
+    transition: 0.6s;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+.insurance-box:hover > img{
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(51deg) brightness(200%) contrast(101%);;
+}
+.insurance-box:hover > button{
+    display: flex;
+}
+.insurance-box img{
+    width: 48px;
+    height: 48px;
+}
+.insurance-box p {
+    text-align: center;
+    font-size: 18px;
+    width: min-content;
+}
+.insurance-box button {
+    color: #fff;
+    font-size: 16px;
+    background-color: #ee303c;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    display: none;
+    cursor: pointer;
+}
+.advantages-continer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    align-items: center;
+    gap: 9px;
+}
+.advantages-continer h2{
+    color: #707070;
+    font-size: 36px;
+}
+.advantages-content{
+    width: 100%;
+    display: flex;
+}
+.advantages-content > div{
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    width: 200px;
+    height: 234px;
+    color: #707070;
+    font-size: 17px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.advantages-content > div > img{
+    width: 40px;
+    height: 40px;
+}
+.advantages-content > div:hover{
+    background-color: #fff;
+}
+.news-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 56px;
+    gap: 36px;
+}
+.news-container h2{
+    color: #707070;
+    font-size: 36px;
+}
+.news-content{
+    display: flex;
+    gap: 16px;
+}
+.news-content div{
+    width: 444px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF;
+    border-radius: 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.news-content div:hover{
+    border: 2px solid #006a9f;
+    transition: 0.3s;
+}
+.news-content div:hover img{
+    padding-top: px;
+}
+.news-content div:hover.date{
+    margin-bottom: 28px;
+}
+.news-content div img{
+    width: 440px;
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+}
+.news-content div p {
+    width: 390px;
+    text-align: left;
+    color: #707070;
+    font-size: 20px;
+}
+.news-content div .date{
+    font-size: 12px;
+    color: #d0d0d0;
+    margin-bottom: 30px;
+}
+.more-news{
+    color: #707070;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.more-news:hover{
+    color: #006A9F;
+    transition: 0.2s;
+}
+.more-news:hover > img{
+    filter: invert(22%) sepia(96%) saturate(1746%) hue-rotate(179deg) brightness(50%) contrast(101%);
+    transition: 0.2s;
+}
+.more-news > img{
+    width: 11px;
+    height: 11px;
+    transform: rotate(-90deg);
+    transition: 0.2s;
+}
