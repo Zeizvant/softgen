@@ -5,7 +5,7 @@
     font-family: 'FiraGO', sans-serif;
 }
 .main-menu-container{
-    max-width: 1200px;
+    max-width: 1220px;
     height: 49px;
     margin: auto;
     display: flex;
@@ -84,6 +84,7 @@
     height: 69px;
     border-radius: 12px;
     padding-bottom: 10px;
+    z-index: 1;
     display: none;
 }
 .languages-menu .language:hover{
