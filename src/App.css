@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Helvetica Neue LT Geo';
+    src: url(./fonts/HelveticaNeueLTProMd.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue LT Geo';
+    src: url(./fonts/Linotype-HelveticaNeueLTGEO75Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BPG LE Studio 02 Caps';
+    src: url(./fonts/bpg_le_studio_02_caps.ttf);
+}
+
