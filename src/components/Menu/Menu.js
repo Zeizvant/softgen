@@ -4,11 +4,18 @@ import georgian from '../../images/georgian.png'
 import russian from '../../images/russian.png'
 import arrow from '../../images/language-arrow.png'
 import phone from '../../images/phone.png'
+import menu from '../../images/menu.svg'
+import logo from '../../images/unison-footer-logo.svg'
 
 
 export const Menu = () => {
     return (
         <div className='main-menu'>
+            <div className='main-menu-responsive'></div>
+            <div className='main-menu-responsive-container'>
+                <img className='resposive-main-logo' src={logo}/>
+                <img className='menu-image' src={menu}/>
+            </div>
             <div className='main-menu-container'>
                 <div className='menu-components'>
                     <a href='#'>მთავარი</a>

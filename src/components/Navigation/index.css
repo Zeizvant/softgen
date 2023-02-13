@@ -158,3 +158,8 @@
 .agent-contact  p{
     font-size: 11px;
 }
+@media (max-width: 1050px){
+    .main-navigation{
+        display: none;
+    }
+}

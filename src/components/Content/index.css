@@ -1,6 +1,5 @@
 .main-content-body{
     width: 100%;
-    height: 1360px;
     background-color: #f2f2f2;
     background-image: url('../../images/body-background.png');
     background-repeat: no-repeat;
@@ -22,6 +21,9 @@
     z-index: 1;
     margin-top: -30px;
     position: relative;
+}
+.responsive-content-sos-button{
+    display: none;
 }
 .insurance-box{
     width: 260px;
@@ -89,6 +91,8 @@
 .advantages-content{
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    height: fit-content;
 }
 .advantages-content > div{
     padding: 36px;
@@ -128,6 +132,7 @@
 .news-content{
     display: flex;
     gap: 16px;
+    justify-content: center;
 }
 .news-content div{
     width: 444px;
@@ -144,9 +149,6 @@
 .news-content div:hover{
     border: 2px solid #006a9f;
     transition: 0.3s;
-}
-.news-content div:hover img{
-    padding-top: px;
 }
 .news-content div:hover.date{
     margin-bottom: 28px;
@@ -176,6 +178,7 @@
     font-size: 18px;
     cursor: pointer;
     transition: 0.2s;
+    margin-bottom: 50px;
 }
 .more-news:hover{
     color: #006A9F;
@@ -190,4 +193,104 @@
     height: 11px;
     transform: rotate(-90deg);
     transition: 0.2s;
+}
+@media (max-width: 1360px){
+    .news-content div img{
+        width: 300px;
+    }
+    .news-content div{
+        width: 304px;
+    }
+    .news-content div p{
+        width: 250px;
+    }
+}
+@media(max-width: 1200px){
+    .advantages-content > div{
+        padding: 10px;
+    }
+}
+@media (max-width: 1050px){
+    .insurance-content{
+        width: 600px;
+        flex-wrap: wrap;
+        margin: -30px auto 0;
+        justify-content: center;
+    }
+    .responsive-content-sos-button{
+        display: flex;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background-color: #EE303C;
+        font-size: 22px;
+        width: 336px;
+        height: 71px;
+        padding: 22px;
+        margin: auto;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+    .responsive-hr-sos{
+        width: 1px;
+        width: 100px;
+    }
+    .advantages-content{
+        width: 600px;
+        flex-wrap: wrap;
+        height: min-content;
+    }
+    .news-container{
+        box-sizing:  border-box;
+        margin: 56px 36px 0 36px;
+    }
+    .news-content{
+        width: 90vw;
+        justify-content: stretch;
+        box-sizing: border-box;
+        overflow-x: scroll;
+    }
+    .news-content div img{
+        width: 277px;
+        height: 166px;
+        border-radius: 12px 12px 0 0;
+    }
+    .news-content div{
+        min-width: 281px;
+        height: 260px;
+        border-radius: 12px;
+    }
+    .news-content div p{
+        font-size: 14px;
+    }
+    
+}
+@media (max-width: 600px){
+    .advantages-content{
+        width: 100vw;
+        justify-content: center;
+    }
+    .insurance-content{
+        width: 90vw;
+    }
+    .insurance-content p {
+        font-size: 12px;
+    }
+    .insurance-box{
+        width: 40vw;
+        height: 113px;
+        margin-bottom: 20px;
+    }
+    .insurance-box:hover{
+        background-color: #006A9F;
+        color: #FFF;
+        width: 163px;
+        height: 153px;
+        gap: 5px;
+    }
+    .responsive-content-sos-button{
+        width: 80vw;
+    }
+    
 }

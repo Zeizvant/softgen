@@ -134,4 +134,44 @@
 .sos-menu > p:hover{
     background-color: #ee303c;
 }
-
+.main-menu-responsive-container{
+    display: none;
+}
+@media (max-width: 1200px){
+    .menu-components{
+        gap: 8px;
+    }
+}
+@media (max-width: 1050px){
+    .main-menu{
+        height: 95px;
+    }
+    .main-menu-container{
+        display: none;
+    }
+    .main-menu-responsive{
+        width: 100%;
+        height: 20px;
+        background-image: linear-gradient(#BFD1E1, #fff);
+    }
+    .main-menu-responsive-container{
+        width: 100%;
+        height: 75px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .main-menu-responsive-container .resposive-main-logo{
+        height: 38px;
+    }
+    .main-menu-responsive-container .menu-image{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        right: 30px;
+        top: 25px;
+        cursor: pointer;
+    }
+}

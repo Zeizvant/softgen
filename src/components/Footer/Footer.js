@@ -32,7 +32,7 @@ export const Footer = () => {
                         <a href='#'>ხშირად დასმული კითხვები</a>
                         <a href='#'>მონაცემთა დაცვა</a>
                     </div>
-                    <div>
+                    <div id='social-links'>
                         <p>სოციალური ქსელები</p>
                         <div className='social'>
                             <img id='fb' src={facebook}/>
@@ -56,6 +56,29 @@ export const Footer = () => {
                     <div className='app'>
                         <img id='apple' src={apple}/>
                         <img id='google' src={google}/>
+                    </div>
+                    <div className='social-links-responsive'>
+                        <div>
+                            <div className='social'>
+                                <img id='fb' src={facebook}/>
+                                <span>Facebook</span>
+                            </div>
+                            <div className='social'>
+                                <img id='instagram' src={instagram}/>
+                                <span>Instagram</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div className='social'>
+                                <img id='linkedin' src={linkedin}/>
+                                <span>Linkedin</span>
+                            </div>
+                            <div className='social'>
+                                <img id='youtube' src={youtube}/>
+                                <span>Youtube</span>
+                            </div>
+                        </div>
+                        
                     </div>
                     <p>უნისონი © ყველა უფლება დაცულია, 2021</p>
                 </div>

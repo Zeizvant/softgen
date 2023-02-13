@@ -47,6 +47,8 @@ export const Content = () => {
                         <button>შეიძინე</button>
                     </div>
                 </div>
+                <button className='responsive-content-sos-button'>SOS</button>
+                <hr className='responsive-hr-sos'></hr>
                 <div className='advantages-continer'>
                     <h2>უპირატესობები</h2>
                     <div className='advantages-content'>
